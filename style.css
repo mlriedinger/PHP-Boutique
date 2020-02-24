@@ -1,0 +1,35 @@
+.body{
+    width:60%;
+    margin:auto;
+    background-color: #fff2e6;
+    border-radius: 2em;
+    box-shadow: 4px 4px 4px #b3b3b3;
+    margin: 3em auto;
+    padding-bottom: 3em;
+    font-family: 'Quicksand', sans serif;
+}
+
+h1{
+    text-align:center;
+    margin-bottom: 3em;
+    padding-top: 2em;
+
+}
+
+img{
+    width:60%;
+    margin-left: 4em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 3px #b3b3b3;
+}
+
+.article{
+    display:flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.photo, .nom, .prix{
+    width:60%;
+    font-size: 20px;
+}
