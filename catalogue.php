@@ -12,6 +12,7 @@ $articles =[
     ['nom'=>'cookies', 'prix'=>'100', 'photo'=>'./img/Cookies.jpg'],
     ['nom'=>'madeleines','prix'=>'200', 'photo'=>'./img/Madeleines.jpg'], 
     ['nom'=>'boudoirs','prix'=>'150', 'photo'=>'./img/Boudoirs.jpg'],
+    ['nom'=>'petit gato','prix'=>'0.5', 'photo'=>'./img/gato.jpg'],
 ];
 ?>
 
