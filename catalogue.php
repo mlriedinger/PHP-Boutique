@@ -19,24 +19,19 @@ $articles =[
         <div class="body">
 
             <header>
-                <h1>La boutique de la super Mamie <br/>qui était partie acheter des gâteaux</h1>
+                <h1>La boutique de la super Mamie <br/>
+                qui était partie acheter des gâteaux</h1>
             </header>
             
             <?php
-            /* Pour chaque élément du tableau, on affiche la photo, le nom et le prix */
-            foreach($articles as $i){
-                echo '<div class="article">';
-                	echo '<div class="photo">';
-               		echo '<a href="article.php?nom=' . $i['nom'] . '">';
-                    echo '<img src="' . $i['photo'] . '"/>';
-                    echo '</a>';
-               		echo "</div>";
-                	echo '<div class="nom">Vous voulez des <strong>' . ($i['nom']) . '</strong> ?';
-                	echo "</div>";
-                	echo '<div class="prix">Prix : <strong>' . ($i['prix']). ' Simflouz</strong>.';
-                	echo "</div>";
-                echo "</div>";
+            /* Pour chaque élément du tableau, on appelle une fonction qui affiche la photo, le nom et le prix */
+           
+            include("functions.php");
+            foreach($articles as $i)
+            {
+                afficheArticle($i['nom'],$i['prix'],$i['photo']);
             }
+            
             ?>
 
         </div>
